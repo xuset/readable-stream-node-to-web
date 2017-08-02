@@ -1,0 +1,39 @@
+{
+  "name": "readable-stream-node-to-web",
+  "version": "1.0.0",
+  "description": "Converts a node Readable stream to a web ReadableStream",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xuset/readable-stream-node-to-web.git"
+  },
+  "keywords": [
+    "readable",
+    "stream",
+    "readablestream",
+    "node",
+    "web",
+    "whatwg"
+  ],
+  "author": "xuset",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xuset/readable-stream-node-to-web/issues"
+  },
+  "homepage": "https://github.com/xuset/readable-stream-node-to-web#readme",
+  "devDependencies": {
+    "browserify": "^14.4.0",
+    "karma": "^1.7.0",
+    "karma-browserify": "^5.1.1",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-firefox-launcher": "^1.0.1",
+    "karma-sauce-launcher": "^1.1.0",
+    "karma-tap": "^3.1.1",
+    "standard": "^10.0.2",
+    "tape": "^4.7.0",
+    "watchify": "^3.9.0"
+  }
+}
